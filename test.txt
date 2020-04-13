@@ -1,1 +1,17 @@
 测试文件......
+https://github.com/masia-ma/practice-git.git
+
+首先你得先查看你是否和远端的仓库建立连接。
+
+git remote -v
+如果没有的话那就自行添加一下
+
+git remote add origin xxxx(你远程分支的git仓库地址)
+如果每天要提交代码 ，可以绕过上面这一步，直接切换分支
+
+修改 名为origin的url
+git remote set-url origin xxxxx(你的远程分支git仓库地址)
+
+git checkout -b Q3 origin/Q3
+
+
